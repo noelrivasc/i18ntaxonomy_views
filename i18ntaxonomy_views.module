@@ -1,0 +1,8 @@
+<?php
+
+function i18ntaxonomy_views_views_api() {
+  return array(
+    'api' => 2,
+    'path' => drupal_get_path('module', 'i18ntaxonomy_views'),
+  );
+}

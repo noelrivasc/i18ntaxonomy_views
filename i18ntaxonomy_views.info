@@ -1,0 +1,8 @@
+; $Id$
+name = "i18n Taxonomy Views"
+description = "Adds fields and filters which properly display taxonomy translations for localized terms"
+core = 6.x
+package = Multilanguage
+dependencies[] = views
+dependencies[] = i18nstrings
+dependencies[] = i18ntaxonomy
